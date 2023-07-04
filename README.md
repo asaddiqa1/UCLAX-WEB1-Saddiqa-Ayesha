@@ -1,7 +1,5 @@
-# UCLAX Web 1 Project
+# UCLAX-WEB1-Saddiqa-Ayesha
 
-This resource is a starter project for students in the UCLAX Web 1 course.
+10:10 PM
 
-## Setup Instructions
 
-Head over to [Setup](_setup/SETUP.md) to walk through the steps needed to configure your system.
