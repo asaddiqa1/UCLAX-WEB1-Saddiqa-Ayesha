@@ -28,7 +28,7 @@ const SunAndMoon = () => {
         <SunAndMoonStyled>
 
             <h2>Sun And Moon</h2>
-            <img src={sunSrc} onMouseEnter={changeToMoon} onMouseLeave={changeToSun} />
+            <img src={imgSrc} onMouseEnter={changeToMoon} onMouseLeave={changeToSun} />
 
         </SunAndMoonStyled>
     );
@@ -49,7 +49,7 @@ const SunAndMoonStyled = styled.div`
 
 img {
     border: solid 20 px teal;
-    margin: 30 px; F
+    margin: 30 px; 
     padding: 20 px;
     background-color: #005252;
 
