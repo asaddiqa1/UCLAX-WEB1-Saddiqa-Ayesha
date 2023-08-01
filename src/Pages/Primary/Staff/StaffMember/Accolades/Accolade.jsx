@@ -6,7 +6,4 @@ const Accolade = ({ accolade }) => {
 
 export default Accolade;
 
-const AccoladeStyled = styled.li`
-    padding-left: 20px;
-    list-style-type: disc;
-`;
+const AccoladeStyled = styled.li``;
