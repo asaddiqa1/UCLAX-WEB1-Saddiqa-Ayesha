@@ -11,7 +11,7 @@ const TabContent = ({ curTab }) => {
             </div>
             <div className="column2">
                 <h3>{curTab.title}</h3>
-                <div dangerouslySetInnerHTML={{ _html: curTab.text }} />
+                <div dangerouslySetInnerHTML={{ __html: curTab.text }} />
             </div>
         </TabContentStyled>
     );
