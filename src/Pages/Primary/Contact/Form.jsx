@@ -49,42 +49,42 @@ const Form = () => {
 
         await axios.post("http://localhost:4059/submissions", postData);
         getSubmissions();
-
-        return (
-            <FormStyled className="Form" onSubmit={onSubmit}>
-                {/* Name ---------------------------*/}{" "}
-                <div className="control-group">
-                    <label htmlFor="name">Name:</label>
-                    <input
-                        type="text"
-                        id="name"
-                        value={inputName}
-                        onChange={inputNameOnChange}
-                    />
-                </div>
-                {/* Email ---------------------------*/}{" "}
-                <div className="control-group">
-                    <label htmlFor="email">Email:</label>
-                    <input
-                        type="text"
-                        id="email"
-                        value={inputEmail}
-                        onChange={inputEmailOnChange}
-                    />
-                </div>
-                {/* Message ---------------------------*/}{" "}
-                <div className="control-group">
-                    <label htmlFor="name">Message:</label>
-                    <textarea
-                        id="message"
-                        value={inputMessage}
-                        onChange={inputMessageOnChange}
-                    />
-                </div>
-                <button type="submit">Send</button>
-            </FormStyled>
-        );
     };
+
+    return (
+        <FormStyled className="Form" onSubmit={onSubmit}>
+            {/* Name ---------------------------*/}{" "}
+            <div className="control-group">
+                <label htmlFor="name">Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    value={inputName}
+                    onChange={inputNameOnChange}
+                />
+            </div>
+            {/* Email ---------------------------*/}{" "}
+            <div className="control-group">
+                <label htmlFor="email">Email:</label>
+                <input
+                    type="text"
+                    id="email"
+                    value={inputEmail}
+                    onChange={inputEmailOnChange}
+                />
+            </div>
+            {/* Message ---------------------------*/}{" "}
+            <div className="control-group">
+                <label htmlFor="name">Message:</label>
+                <textarea
+                    id="message"
+                    value={inputMessage}
+                    onChange={inputMessageOnChange}
+                />
+            </div>
+            <button type="submit">Send</button>
+        </FormStyled>
+    );
 };
 
 export default Form;
