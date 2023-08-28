@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 import { v4 as uuidv4 } from "uuid";
 
+import axios from "axios";
+
 const Form = () => {
     /* Name ---------------------------*/
     const [inputName, inputNameUpdate] = useState("Slim Shady");
