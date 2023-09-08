@@ -13,18 +13,18 @@ export default Essay;
 
 const EssayStyled = styled.div`
     margin: 20px 0px;
-    border: solid 2px #034444;
+    border: solid 2px #a6649a;
 
     h3 {
-        background-color: #034444;
+        background-color: #8e5283;
         padding: 10px 20px;
-        color: whitesmoke;
+        color: #fff5e1;
         font-size: 20px;
         margin: 0px;
     }
 
     .answer {
-        background-color: #eee;
+        background-color: #fff5e1;
         padding: 20px;
     }
 `;

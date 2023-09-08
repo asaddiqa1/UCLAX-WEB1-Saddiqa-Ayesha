@@ -49,7 +49,7 @@ const Small = () => {
                         Contact
                     </NavLink>
                     <NavLink onClick={hideMenu} to={"/course-work"}>
-                        Course
+                        More Info
                     </NavLink>
                 </nav>
             )}
@@ -79,13 +79,13 @@ const SmallStyled = styled.div`
         right: 0px;
         bottom: 0px;
 
-        background-color: #034444;
+        background-color: #a6649a;
 
         a {
             display: block;
 
             padding: 10px;
-            border-bottom: 1px solid #999999;
+            border-bottom: 1px solid #fff5e1;
 
             color: white;
             text-decoration: none;
@@ -93,7 +93,7 @@ const SmallStyled = styled.div`
             &:hover,
             &:active,
             &:focus {
-                background-color: #043434;
+                background-color: #a6649a;
             }
         }
     }

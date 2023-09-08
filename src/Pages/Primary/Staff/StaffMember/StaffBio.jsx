@@ -6,10 +6,7 @@ import AccoladeList from "./Accolades/AccoladeList";
 const StaffBio = ({ member }) => {
     return (
         <StaffBioStyled className="StaffBio">
-            <div className="year">
-                <b>Year Started: </b>
-                {member.yearStarted}
-            </div>
+            <div className="year"></div>
             <AccoladeList member={member} />
         </StaffBioStyled>
     );

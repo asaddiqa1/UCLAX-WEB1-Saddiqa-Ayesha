@@ -1,4 +1,6 @@
 import { useState } from "react";
+import React from "react";
+import ReactPlayer from "react-player";
 
 import styled from "styled-components";
 
@@ -23,14 +25,12 @@ const SunAndMoon = () => {
     //HTML
     return (
         <SunAndMoonStyled>
-            <h2>Sun And Moon</h2>
-            <div className="sunMoonImage">
-                <img
-                    src={imgSrc}
-                    onMouseEnter={changeToMoon}
-                    onMouseLeave={changeToSun}
-                />
-            </div>
+            <h2>Behind the Scenes</h2>
+            <h4>
+                Experience the Magic Behind the Scenes in Our BTS Video,
+                Crafting Your Purrfect Visit!
+            </h4>
+            <ReactPlayer url="https://www.youtube.com/watch?v=X9YDT4QM29g" />
         </SunAndMoonStyled>
     );
 };
@@ -39,6 +39,10 @@ export default SunAndMoon;
 
 //Styles
 const SunAndMoonStyled = styled.div`
+    h4 {
+        font-size: 20px;
+        color: #a6649a;
+    }
     .sunMoonImage {
         text-align: center;
 

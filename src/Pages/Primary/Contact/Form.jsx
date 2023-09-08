@@ -8,7 +8,7 @@ import axios from "axios";
 
 const Form = () => {
     /* Name ---------------------------*/
-    const [inputName, inputNameUpdate] = useState("Slim Shady");
+    const [inputName, inputNameUpdate] = useState("Pawsitively Fabulous Human");
 
     const inputNameOnChange = (e) => {
         const theValue = e.target.value;
@@ -18,7 +18,7 @@ const Form = () => {
     };
 
     /* Email ---------------------------*/
-    const [inputEmail, inputEmailUpdate] = useState("slim@shady.com");
+    const [inputEmail, inputEmailUpdate] = useState("purr@palace.com");
 
     const inputEmailOnChange = (e) => {
         const theValue = e.target.value;
@@ -29,7 +29,7 @@ const Form = () => {
 
     /* Message ---------------------------*/
     const [inputMessage, inputMessageUpdate] = useState(
-        "Will the real shady please stand up?"
+        "Has the cat got your tongue, or do you have a purr-ticular question?"
     );
 
     const inputMessageOnChange = (e) => {
@@ -120,9 +120,9 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #a6649a;
         padding: 10px 5px;
-        color: white;
+        color: #fff5e1;
         width: 150px;
         border: none;
         outline: none;
@@ -131,11 +131,11 @@ const FormStyled = styled.form`
 
         &:hover,
         &:focus {
-            background-color: #015353;
+            background-color: #8e5283;
         }
 
         &:active {
-            background-color: #002020;
+            background-color: #75436b;
         }
     }
 `;

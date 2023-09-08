@@ -11,4 +11,7 @@ const Slide = ({ slide }) => {
 
 export default Slide;
 
-const SlideStyled = styled.div``;
+const SlideStyled = styled.div`
+    height: 600px;
+    width: 100%;
+`;

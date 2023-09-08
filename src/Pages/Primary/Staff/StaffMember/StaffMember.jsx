@@ -16,7 +16,7 @@ const StaffMember = ({ member }) => {
 export default StaffMember;
 
 const StaffMemberStyled = styled.div`
-    background-color: #eee;
+    background-color: #e9d8e6;
 
     img {
         width: 100%;
@@ -25,9 +25,13 @@ const StaffMemberStyled = styled.div`
 
     h3 {
         font-size: 20px;
-        color: white;
-        background-color: #014444;
+        color: #fff5e1;
+        background-color: #a6649a;
         margin: 0px;
         padding: 5px 10px;
+    }
+
+    .member {
+        color: #75436b;
     }
 `;
